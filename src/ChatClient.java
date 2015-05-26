@@ -15,9 +15,6 @@ public class ChatClient {
 		
 		String userName = JOptionPane.showInputDialog("Enter a User Name:");
 		
-		
-
-
 		try {
 			Socket chatSocket = new Socket(hostName, portNumber);
 
